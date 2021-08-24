@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/backgroundColor"
-            tools:context=".activitys.moviedetails.MovieDetailsActivity">
+            tools:context=".ui.activitys.MovieDetailsActivity">
 
         <ImageView
                 android:id="@+id/posterMovie"
@@ -25,8 +25,8 @@
 
         <View
                 android:id="@+id/returnBtn"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
+                android:layout_width="@dimen/xxlarge"
+                android:layout_height="@dimen/xxlarge"
                 android:layout_marginStart="@dimen/xsmall"
                 android:layout_marginTop="@dimen/small"
                 android:contentDescription="@string/floating_btn_description"

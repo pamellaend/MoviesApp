@@ -1,7 +1,7 @@
 package com.pamella.moviesapp.data.map
 
 import com.pamella.moviesapp.data.model.genres.GenreResponse
-import com.pamella.moviesapp.classes.model.Genre
+import com.pamella.moviesapp.domain.model.Genre
 
 class GenreMapper {
     fun map(genresResponseList: List<GenreResponse>): List<Genre> {

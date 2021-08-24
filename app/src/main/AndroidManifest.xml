@@ -10,12 +10,12 @@
             android:label="App de filmes"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:name=".activitys.app.AppApplication"
+            android:name=".ui.app.AppApplication"
             android:theme="@style/Theme.MoviesApp">
 
-        <activity android:name=".activitys.GeneralErrorActivity"/>
-        <activity android:name=".activitys.moviedetails.MovieDetailsActivity"/>
-        <activity android:name=".activitys.HomeActivity">
+        <activity android:name=".ui.activitys.ErrorActivity"/>
+        <activity android:name=".ui.activitys.MovieDetailsActivity"/>
+        <activity android:name=".ui.activitys.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

@@ -1,8 +1,8 @@
 package com.pamella.moviesapp.data.map
 
-import com.pamella.moviesapp.data.localsource.database.MovieData
+import com.pamella.moviesapp.data.local.MovieData
 import com.pamella.moviesapp.data.model.movies.MovieResponse
-import com.pamella.moviesapp.classes.model.Movie
+import com.pamella.moviesapp.domain.model.Movie
 
 class MovieResponseMapper {
     fun map(movie: Movie): MovieResponse {
@@ -18,7 +18,7 @@ class MovieResponseMapper {
 
     fun map(movie: MovieData): MovieResponse {
         return MovieResponse(
-            imgHome = movie.imgHome,
+            imgHome = movie.imgInitial,
             id = movie.id,
             title = movie.title,
             rating = movie.rating,

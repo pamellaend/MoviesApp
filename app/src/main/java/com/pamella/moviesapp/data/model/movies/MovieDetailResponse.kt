@@ -1,7 +1,7 @@
 package com.pamella.moviesapp.data.model.movies
 
 import com.google.gson.annotations.SerializedName
-import com.pamella.moviesapp.classes.model.Genre
+import com.pamella.moviesapp.domain.model.Genre
 
 class MovieDetailResponse(
     @SerializedName("backdrop_path")

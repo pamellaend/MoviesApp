@@ -1,7 +1,7 @@
 package com.pamella.moviesapp.data.map
 
 import com.pamella.moviesapp.data.model.movies.MovieResponse
-import com.pamella.moviesapp.classes.model.Movie
+import com.pamella.moviesapp.domain.model.Movie
 
 class MovieMapper {
     fun map(movieResponseList: List<MovieResponse>): List<Movie> {

@@ -1,15 +1,15 @@
 package com.pamella.moviesapp.data.map
 
-import com.pamella.moviesapp.data.model.certification.ReleaseDatesResponse
-import com.pamella.moviesapp.classes.model.Certification
+import com.pamella.moviesapp.data.model.parentalguidance.ReleaseDatesResponse
+import com.pamella.moviesapp.domain.model.ParentalGuidance
 
 class CertificationMapper {
-    fun map(certificationList: List<ReleaseDatesResponse>?): List<Certification> {
-        val certifications = mutableListOf<Certification>()
+    fun map(certificationList: List<ReleaseDatesResponse>?): List<ParentalGuidance> {
+        val certifications = mutableListOf<ParentalGuidance>()
         certificationList?.let {
             certificationList.forEach {
-                val certification = Certification(
-                    certification = it.certification,
+                val certification = ParentalGuidance(
+                    pg = it.certification,
                     type = it.type
                 )
                 certifications.add(certification)
