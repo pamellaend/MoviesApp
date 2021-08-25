@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671173510030",
+    "project_id": "moviesapp-d4106",
+    "storage_bucket": "moviesapp-d4106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671173510030:android:1127df5f109aafc7925adf",
+        "android_client_info": {
+          "package_name": "com.pamella.moviesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671173510030-tuhpbus87q8k5qmi314emd4gobshiald.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3QHkTFdJZdbhyTkzBBdc2Kjoz5b7y7M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671173510030-tuhpbus87q8k5qmi314emd4gobshiald.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

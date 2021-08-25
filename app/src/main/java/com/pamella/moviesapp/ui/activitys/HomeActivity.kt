@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
+import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -53,6 +54,18 @@ class HomeActivity : AppCompatActivity() {
         TabLayoutMediator(tbLytOptions, viewPager) { tab, position ->
             tab.text = getTabTitle(position)
         }.attach()
+
+
+//          Teste de erro Crashlytics
+//        val crashButton = Button(this)
+//        crashButton.text = "Test Crash"
+//        crashButton.setOnClickListener {
+//            throw RuntimeException("Test Crash") // Force a crash
+//        }
+//
+//        addContentView(crashButton, ViewGroup.LayoutParams(
+//            ViewGroup.LayoutParams.MATCH_PARENT,
+//            ViewGroup.LayoutParams.WRAP_CONTENT))
 
 
 
@@ -116,6 +129,7 @@ class HomeActivity : AppCompatActivity() {
         searchModeTxt.visibility = View.GONE
         backHomeButton.visibility = View.GONE
     }
+
 
     private fun getTabTitle(position: Int): String {
         return when (position) {
