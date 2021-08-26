@@ -2,7 +2,7 @@ package com.pamella.moviesapp.data.remote
 
 import android.net.Uri
 import com.pamella.moviesapp.data.model.cast.CastListResponse
-import com.pamella.moviesapp.data.model.parentalguidance.CertificationListReponse
+import com.pamella.moviesapp.data.model.parentalguidance.ResultsListResponse
 import com.pamella.moviesapp.data.model.genres.GenresListResponse
 import com.pamella.moviesapp.data.model.movies.MovieDetailResponse
 import com.pamella.moviesapp.data.model.movies.MoviesListResponse
@@ -29,7 +29,7 @@ interface MoviesRemoteSource {
     fun getAllGenres(): Single<GenresListResponse>
 
     @GET("movie/{movie_id}/release_dates")
-    fun getCertification(@Path("movie_id") movieId: Int): Single<CertificationListReponse>
+    fun getCertification(@Path("movie_id") movieId: Int): Single<ResultsListResponse>
 
     @GET("discover/movie")
     fun getMoviesByGenre(@Query("with_genres", encoded = true) genresId: String): Single<MoviesListResponse>

@@ -5,16 +5,16 @@ import com.pamella.moviesapp.domain.model.Cast
 
 class CastMapper {
     fun map(castList: List<CastResponse>): List<Cast> {
-        val celebrities = mutableListOf<Cast>()
+        val crew = mutableListOf<Cast>()
         castList.forEach {
             val celebrity = Cast(
                 name = it.name,
                 profilePath = it.profilePath,
                 character = it.character
             )
-            celebrities.add(celebrity)
+            crew.add(celebrity)
         }
-        return celebrities
+        return crew
     }
 
 

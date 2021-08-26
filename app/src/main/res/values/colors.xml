@@ -11,9 +11,11 @@
     <color name="synopsisTextColor">#737599</color>
     <color name="starColor">#FCC419</color>
     <color name="searchColor">#000000</color>
+    <color name="TabLayoutTxt">#2A12153D</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
 </resources>

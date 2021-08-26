@@ -41,7 +41,7 @@ class MovieDetailsActivity : AppCompatActivity() {
         movieTitle = findViewById(R.id.movieTitle)
         movieRating = findViewById(R.id.ratingMovieInfoAct)
         movieYear = findViewById(R.id.movieYear)
-        ageRestriction = findViewById(R.id.ageRestriction)
+        ageRestriction = findViewById(R.id.parentalGuidance)
         movieDuration = findViewById(R.id.movieDuration)
         favButton = findViewById(R.id.favBtnMovieInfo)
         genresRv = findViewById(R.id.genreRvMovieInfo)

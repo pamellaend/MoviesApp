@@ -29,9 +29,9 @@ class CastRvAdapter(val context: Context, val dataset: MutableList<Cast> = mutab
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val personImg = view.findViewById<ImageView>(R.id.personImg)
-        val personName = view.findViewById<TextView>(R.id.personName)
-        val character = view.findViewById<TextView>(R.id.personRole)
+        val personImg = view.findViewById<ImageView>(R.id.crewImg)
+        val personName = view.findViewById<TextView>(R.id.crewName)
+        val character = view.findViewById<TextView>(R.id.crewRole)
     }
 
     override fun getItemCount() = dataset.size

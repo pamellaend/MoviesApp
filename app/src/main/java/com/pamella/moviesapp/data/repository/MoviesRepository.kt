@@ -15,7 +15,7 @@ class MoviesRepository {
     private val genreMapper = GenreMapper()
     private val castMapper = CastMapper()
     private val movieDetailMapper = MovieDetailMapper()
-    private val certificationMapper = CertificationMapper()
+    private val certificationMapper = ParentalGuidanceMapper()
 
     fun getPopMovies(): Single<List<Movie>> {
         return moviesRemoteSource

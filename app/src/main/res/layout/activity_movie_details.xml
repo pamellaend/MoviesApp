@@ -21,7 +21,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:shapeAppearanceOverlay="@style/shapeableImageStyle"
-                tools:src="@drawable/img_exemplo2"/>
+                tools:src="@drawable/img_exemplo2"
+                android:contentDescription="@string/movie_poster_description"/>
 
         <View
                 android:id="@+id/returnBtn"
@@ -63,7 +64,7 @@
                         app:layout_constraintTop_toTopOf="parent"/>
 
                 <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/evaluationText"
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/lato_regular"
@@ -110,13 +111,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/movieTitle"/>
 
         <TextView
-                android:id="@+id/ageRestriction"
+                android:id="@+id/parentalGuidance"
                 style="@style/movieAdditionalInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/medium"
                 android:fontFamily="@font/lato_regular"
-                android:text="@string/age_restriction"
+                android:text="@string/parental_guidance"
                 app:layout_constraintStart_toEndOf="@+id/movieYear"
                 app:layout_constraintTop_toTopOf="@+id/movieYear"/>
 
@@ -128,8 +129,8 @@
                 android:layout_marginStart="@dimen/medium"
                 android:fontFamily="@font/lato_regular"
                 android:text="@string/duration"
-                app:layout_constraintStart_toEndOf="@+id/ageRestriction"
-                app:layout_constraintTop_toTopOf="@+id/ageRestriction"/>
+                app:layout_constraintStart_toEndOf="@+id/parentalGuidance"
+                app:layout_constraintTop_toTopOf="@+id/parentalGuidance"/>
 
         <ImageView
                 android:id="@+id/favBtnMovieInfo"
@@ -139,7 +140,8 @@
                 android:layout_marginEnd="@dimen/large"
                 android:src="@drawable/ic_baseline_favorite_border_24"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+                android:contentDescription="@string/heart_icon_description"/>
 
 
         <androidx.recyclerview.widget.RecyclerView

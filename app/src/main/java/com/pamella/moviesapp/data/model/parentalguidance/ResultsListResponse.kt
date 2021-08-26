@@ -2,4 +2,4 @@ package com.pamella.moviesapp.data.model.parentalguidance
 
 import com.google.gson.annotations.SerializedName
 
-class CertificationListReponse(@SerializedName("results") val results: List<CertificationResponse>)
+class ResultsListResponse(@SerializedName("results") val results: List<RegionDateResponse>)

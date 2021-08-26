@@ -1,14 +1,11 @@
 <resources>
     <string name="app_name">Projeto Integrador ViC</string>
     <string name="movie_genre">Genre</string>
-    <string name="movie_search">Pesquisar por um filme...</string>
+    <string name="movie_search">Pesquisar por um filme…</string>
     <string name="movie_title">Movie title</string>
-    <string name="movie_img_description">movie banner picture</string>
-    <string name="heart_icon_description">heart icon</string>
-    <string name="star_icon_description">star icon</string>
     <string name="movie_rating">%</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="users_avaluation">Avaliação dos usuários</string>
+    <string name="users_evaluation">Avaliação dos usuários</string>
     <string name="synopsis">Sinopse</string>
     <string name="cast">Elenco</string>
     <string name="movie_synopsis">movie synopsis</string>
@@ -17,13 +14,24 @@
     <string name="person_name">Name</string>
     <string name="year_released">released year</string>
     <string name="users_rating_txt">Avaliação dos usuários</string>
-    <string name="age_restriction">parental guidance</string>
+    <string name="parental_guidance">PG</string>
     <string name="movie_not_found">Esse filme não existe</string>
-    <string name="couldnt_find">O filme não foi encontrado. Por favor, pesquise outro título.</string>
+    <string name="cant_find">O filme não foi encontrado. Por favor, pesquise outro título.</string>
+    <string name="search_mode">Modo pesquisa</string>
+    <string name="return_to_home">Voltar ao início</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="system_failure_frase">Por algum motivo, não foi possível processar com essa solicitação. Por favor, tente novamente.</string>
+    <string name="system_failure_text">O sistema falhou</string>
+
     <string name="floating_btn_description">return to previous page button</string>
     <string name="movie_poster_description">movie poster</string>
     <string name="star_rating_description">star rating</string>
     <string name="search_button_description">search button</string>
-    <string name="search_mode">Modo pesquisa</string>
-    <string name="return_to_home">Voltar ao início</string>
+    <string name="movie_not_found_description">Imagem de filme não encontrado</string>
+    <string name="closing_btn_description">close button</string>
+    <string name="system_failure_img_description">Imagem de erro no sistema</string>
+    <string name="movie_img_description">movie banner picture</string>
+    <string name="heart_icon_description">heart icon</string>
+    <string name="star_icon_description">star icon</string>
+    <string name="green_bar_description">green bar</string>
 </resources>

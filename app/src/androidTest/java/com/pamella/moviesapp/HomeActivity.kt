@@ -19,8 +19,8 @@ class HomeActivity {
 
     @Test
      fun search_test(){
-        onView(withId(R.id.searchMovieBox)).perform(click())
-        onView(withId(R.id.searchMovieBox)).perform(typeText("Frozen"), pressKey(66))
+        onView(withId(R.id.searchMovie)).perform(click())
+        onView(withId(R.id.searchMovie)).perform(typeText("Frozen"), pressKey(66))
         onView(withId(R.id.backHomeButton)).perform(click())
     }
 

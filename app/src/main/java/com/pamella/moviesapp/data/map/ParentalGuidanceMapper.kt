@@ -1,13 +1,13 @@
 package com.pamella.moviesapp.data.map
 
-import com.pamella.moviesapp.data.model.parentalguidance.ReleaseDatesResponse
+import com.pamella.moviesapp.data.model.parentalguidance.PGResponse
 import com.pamella.moviesapp.domain.model.ParentalGuidance
 
-class CertificationMapper {
-    fun map(certificationList: List<ReleaseDatesResponse>?): List<ParentalGuidance> {
+class ParentalGuidanceMapper {
+    fun map(parentalGuidanceList: List<PGResponse>?): List<ParentalGuidance> {
         val certifications = mutableListOf<ParentalGuidance>()
-        certificationList?.let {
-            certificationList.forEach {
+        parentalGuidanceList?.let {
+            parentalGuidanceList.forEach {
                 val certification = ParentalGuidance(
                     pg = it.certification,
                     type = it.type

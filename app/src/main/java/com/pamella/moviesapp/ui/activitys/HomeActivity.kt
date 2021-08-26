@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
-import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -40,7 +39,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun bindViews() {
-        searchTxt = findViewById(R.id.searchMovieBox)
+        searchTxt = findViewById(R.id.searchMovie)
         searchButton = findViewById(R.id.searchButton)
         tbLytOptions = findViewById(R.id.tabLytOptions)
         viewPager = findViewById(R.id.viewPager)
